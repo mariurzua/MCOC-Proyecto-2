@@ -1,0 +1,37 @@
+# MCOC-Proyecto-2
+
+El objetivo principal del proyecto consiste en implementar y validar un programa de simulación de transporte de sedimentos de fondo. 
+Este se logra considerando un modelo lagrangiano, mediante el cual se sigue cada particula de manera individual, para luego ir 
+extendiendolo para que funcione en cantidades de sedimentos mas grandes y cercanas a la realidad. Junto a esto, se busca comprender 
+en que consiste el termino "complejidad computacional", en el cual se analiza como influyen las desiciones de algoritmo de implementacion,
+ademas de estudiar los metodos INPUT-OUTPUT (IO) en el rendimiento del programa.
+
+Para lograr el objetivo es importante tener la informacion y los conocimientos necesarios acerca del transporte de sedimentos y com-
+prender porque es necesario su estudio. 
+
+El retiro de sedimentos es importante ya que, si se junta mucha cantidad de sedimentos, estos disminuyen el volumen de diseño de un
+embalse o una represa, perjudicando la obra. El transporte de sedimentos posee cuatro puntos a considerar; contaminantes, erosión, 
+sedimentos y dinero.
+
+Un grafico explicativo permite comprender mas acerca de esto, ya que muestra el esfuerzo de corte critico. Este grafico posee en su eje X
+el numero de Reynolds de la particula, ordenada de la mas pequeña a la mas grande, por lo que entrega informacion acerca del tamaño 
+de la particula (arcilla, grava, arena etc). El eje Y posee el esfuerzo de corte, el cual se puede calcular a partir del flujo. 
+Sobre la linea la particula se mueve y bajo la linea grafica la particula no se mueve. 
+Las particulas mas pequeñas como arcillas se mueven practicamente a la velocidad del agua, mientras que las mas grandes como arenas y 
+gravas se mueven mas lento ya que poseen su propia inercia. 
+
+Las particulas se pueden representar en un perfil de velocidades de manera logaritmica, siendo las de la pared aquellas que no se  mueven
+(sedidmentos de fondo). Las particulas que estan cerca de la pared, las cuales son llamadas las del transporte de fondo, son arenas o 
+gravas y se mueven rodando, arrastrandose sin rodar o saltando (mayoria). Esta utima es la que se estudia en el proyecto.
+
+El analisis se hace considerando el movimiento del flujo de manera euleriana en un espacio, y luego considerando el movimiento de la 
+particula de forma langrangiana. Se va a discretizar la particula, para luego en cada celda resolver navier stoke, y asi obtener el corte
+y la presion. Si la presion y los cortes sen las celdas de la parte de arriba son mas grandes que los de abajo, entonces la particula
+tiene una fuerza neta que va hacia arriba y se mueve. La particula pasa por un espacio con caracteristicas definidas (velocidades), y 
+tiene cuatro formas tipicas de acoplarse. 
+
+Se va a considerar un perfil logaritmico para la velocidad del flujo (cambia en vertical y no en la horizontal, considerando 2 dimensiones),
+asi, depende de a que altura "z" se encuentra. Con esto la velocidad del flujo se procede a calcular las fuerzas aerodinámicas.
+Luego se establece una relacion entre las fuerzas aerodinamicas y el peso sumergido. Para ello se considera el cambio de momentum igual
+a la sumatoria de fuerzas (masa de la particula x la derivada de la velocidad es igual a  una aceleracion igual a la sumatoria de fuerzas).
+ #25,51
