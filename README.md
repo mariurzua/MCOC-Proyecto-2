@@ -7,11 +7,7 @@ en que consiste el termino "complejidad computacional", en el cual se analiza co
 ademas de estudiar los metodos INPUT-OUTPUT (IO) en el rendimiento del programa.
 
 Para lograr el objetivo es importante tener la informacion y los conocimientos necesarios acerca del transporte de sedimentos y com-
-prender porque es necesario su estudio. 
-
-El retiro de sedimentos es importante ya que, si se junta mucha cantidad de sedimentos, estos disminuyen el volumen de diseño de un
-embalse o una represa, perjudicando la obra. El transporte de sedimentos posee cuatro puntos a considerar; contaminantes, erosión, 
-sedimentos y dinero.
+prender porque es necesario su estudio. Si se junta mucha cantidad de sedimentos, estos disminuyen el volumen de diseño de un embalse o una represa, perjudicando la obra. 
 
 Un grafico explicativo permite comprender mas acerca de esto, ya que muestra el esfuerzo de corte critico. Este grafico posee en su eje X
 el numero de Reynolds de la particula, ordenada de la mas pequeña a la mas grande, por lo que entrega informacion acerca del tamaño 
@@ -30,8 +26,8 @@ y la presion. Si la presion y los cortes sen las celdas de la parte de arriba so
 tiene una fuerza neta que va hacia arriba y se mueve. La particula pasa por un espacio con caracteristicas definidas (velocidades), y 
 tiene cuatro formas tipicas de acoplarse. 
 
-Se va a considerar un perfil logaritmico para la velocidad del flujo (cambia en vertical y no en la horizontal, considerando 2 dimensiones),
-asi, depende de a que altura "z" se encuentra. Con esto la velocidad del flujo se procede a calcular las fuerzas aerodinámicas.
-Luego se establece una relacion entre las fuerzas aerodinamicas y el peso sumergido. Para ello se considera el cambio de momentum igual
-a la sumatoria de fuerzas (masa de la particula x la derivada de la velocidad es igual a  una aceleracion igual a la sumatoria de fuerzas).
- #25,51
+Como se va a considerar un perfil logaritmico para la velocidad del flujo, este cambia en la vertical y no en la horizontal (considerando 2 dimensiones), y asi, depende de a que altura "z" se encuentra. Luego se debe proceder a calcular las fuerzas aerodinámicas, para poder establecer una relacion entre las fuerzas aerodinamicas y el peso sumergido. Para ello se considera el cambio de momentum igual a la sumatoria de fuerzas (masa de la particula x la derivada de la velocidad es igual a  una aceleracion igual a la sumatoria de fuerzas). Es importante considerar y asegurar que la discretizacion en el tiempo que se hace es independiente de la
+solucion. 
+
+Las fuerzas importantes a considerar son el peso sumergido (empuje menos peso de la particula), fuerza de arrastre, fuerza de sustentacion, y fuerza de magnus. Se consideran los saltos de la particula para luego sacar un promedio en la altura h y el largo L
+del salto, ademas de un promedio de la velocidad, la mediana y la deviacion estandar. Finalmente se podra comparar estos resultados con los existentes de una simulacion .
