@@ -32,3 +32,6 @@ en direcciones distintas.
 Ademas, los parametros y valores de coeficientes utilizados son los obtenidos de Wikipedia, es decir, los que tenian unidades
 de medida, no como los valores utilizados por el profesor Patricio Moreno en sus papers, donde estos coeficientes son de 
 caracter adimensional.
+
+Los cuellos de botella presentes en nuestro codigo se encuentran en la interaccion de las particulas con otras particulas
+y tambien con el suelo, debido a lo explicado anteriormente.
