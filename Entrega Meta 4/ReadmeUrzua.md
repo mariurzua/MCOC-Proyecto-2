@@ -20,6 +20,8 @@ La simulaciòn se hizo bajo un paso de tiempo equivalente a 0.0001(s) y un tiemp
 Evaluando cada caso, el tiempo que tardò en completar la simulaciòn es el siguiente para las partìculas:
 • 2 partìculas: 75,3 (seg)
 
+https://github.com/mariurzua/MCOC-Proyecto-2/issues/2#issue-506114893
+
 
 
 
