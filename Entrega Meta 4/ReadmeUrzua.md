@@ -26,7 +26,7 @@ Evaluando cada caso, el tiempo que tardò en completar la simulaciòn es el sigu
 
 
 • 5 partìculas: 899,74 (seg)
-https://github.com/mariurzua/MCOC-Proyecto-2/issues/1#issue-506110655
+https://user-images.githubusercontent.com/53714907/66692386-4a64eb00-ec74-11e9-8b59-91e05bf42380.png
 
 • 10 partìculas:
 
