@@ -27,12 +27,12 @@ del salto, ademas de un promedio de la velocidad, la mediana y la deviacion esta
 
 **Supuestos para la simulaciòn:**
 
-Diàmetro partìcula: 0.15 (mm)
-Densidad partìcula (obtenida por Nino and Garcia 1994): 2650 (kg/m3)
-Densidad agua: 1000 (kg/m3)
-Constante Drag (Cd): 0.47
-Constante de lifting (Cl): 0.2
-Constante de peso (Cm): 0.5
+- Diàmetro partìcula: 0.15 (mm)
+- Densidad partìcula (obtenida por Nino and Garcia 1994): 2650 (kg/m3)
+- Densidad agua: 1000 (kg/m3)
+- Constante Drag (Cd): 0.47
+- Constante de lifting (Cl): 0.2
+- Constante de peso (Cm): 0.5
 
 
 
