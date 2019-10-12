@@ -27,6 +27,10 @@ Evaluando cada caso, el tiempo que tardo en completar la simulacion es el siguie
 
 • 10 particulas: 2403.5 (seg)
 
+**_Comentario:_** 
+
+Es posible notar que se demora bastante en correr, por lo que ideal seria mejorar el desempeño del programa. Para ello, podria utilizarse un sistema operativo mas eficiente.
+
 
 
 
