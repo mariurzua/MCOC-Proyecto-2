@@ -1,6 +1,6 @@
 Validación para múltiples partículas:
 
-Para este punto la validación se hizo con 5, 7 y 10 partículas, con un perfil de velocidad logaritmico que solo depende de la altura donde se ubique la partícula.
+Para este punto la validación se hizo con 2, 5, 10 y 20 partículas, con un perfil de velocidad logaritmico que solo depende de la altura donde se ubique la partícula.
 
 Los resultados de la simulación son discutibles, ya que en el comportamiento de cada simulación es parecido al mostrado por el profesor, pero son muy diferentes al real, ya que hay varias excepciones y suposiciones que alejan a la simulacion de lo real.
 
@@ -14,6 +14,7 @@ Los cuellos de botella de nuestro programa se provocan por las interacciones de 
 
 La complicación empírica de este problema, es que para cada delta t se tiene que "integrar", por lo tanto si se tiene 100 partículas y se quiere ver la trayectoria en un tiempo T, entonces en cada delta t se tiene que integrar 100 por cada delta t. Esto se ve reflejado en el tiempo que demora la simulación, que aumenta por cada partícula que se agrega a la simulación.
 
-Soluciones para acortar el tiempo entre cada simulación, primero es ocupar el sistema operativo de linux para cada simulación, ya que el sistema operativo Windows es conocido por demorarse mucho más. Segundo es darle 
+Solución para acortar el tiempo entre cada simulación,  es ocupar el sistema operativo de linux para cada simulación, ya que el sistema operativo Windows es conocido por demorarse mucho más. En la simulación para 2 particulas en Windows demoró el tiempo de 206 segundos y en linux 69 segundos, cabe destacar que se ocupo el mismo equipo para cada simulación, lo único que cambio fue el sistema operativo ocupado. Como se puede observar hay una disminción de tiempo considerable, en conclusión es favorable ocupar linux a la hora de querer simular algun programa de python.
+
 
 
