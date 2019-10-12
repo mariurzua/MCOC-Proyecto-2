@@ -26,6 +26,13 @@ Las fuerzas importantes a considerar son el peso sumergido (empuje menos peso de
 del salto, ademas de un promedio de la velocidad, la mediana y la deviacion estandar. Finalmente se podra comparar estos resultados con los existentes de una simulacion.
 
 **Supuestos para la simulaciòn:**
-Diàmetro partìcula = 0.15 (mm)
+
+Diàmetro partìcula: 0.15 (mm)
 Densidad partìcula (obtenida por Nino and Garcia 1994): 2650 (kg/m3)
+Densidad agua: 1000 (kg/m3)
+Constante Drag (Cd): 0.47
+Constante de lifting (Cl): 0.2
+Constante de peso (Cm): 0.5
+
+
 
