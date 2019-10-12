@@ -1,23 +1,16 @@
 **MCOC-Proyecto-2**
 
-_**Objetivo principal:**_ del proyecto consiste en implementar y validar un programa de simulación de transporte de sedimentos de fondo. 
-Este se logra considerando un modelo lagrangiano, mediante el cual se sigue cada particula de manera individual, para luego ir 
+_**Objetivo principal:**_ del proyecto consiste en implementar y validar un programa de simulación de transporte de sedimentos de fondo. Este se logra considerando un modelo lagrangiano, mediante el cual se sigue cada particula de manera individual, para luego ir 
 extendiendolo para que funcione en cantidades de sedimentos mas grandes y cercanas a la realidad. Junto a esto, se busca comprender 
-en que consiste el termino "complejidad computacional", en el cual se analiza como influyen las desiciones de algoritmo de implementacion,
-ademas de estudiar los metodos INPUT-OUTPUT (IO) en el rendimiento del programa.
+en que consiste el termino "complejidad computacional", en el cual se analiza como influyen las desiciones de algoritmo de implementacion, ademas de estudiar los metodos INPUT-OUTPUT (IO) en el rendimiento del programa.
 
 Para lograr el objetivo es importante tener la informacion y los conocimientos necesarios acerca del transporte de sedimentos y com-
 prender porque es necesario su estudio. Si se junta mucha cantidad de sedimentos, estos disminuyen el volumen de diseño de un embalse o una represa, perjudicando la obra. 
 
-Las particulas se pueden representar en un perfil de velocidades de manera logaritmica, siendo las de la pared aquellas que no se  mueven
-(sedidmentos de fondo). Las particulas que estan cerca de la pared, las cuales son llamadas las del transporte de fondo, son arenas o 
-gravas y se mueven rodando, arrastrandose sin rodar o saltando (mayoria). Esta utima es la que se estudia en el proyecto.
+Las particulas se pueden representar en un perfil de velocidades de manera logaritmica, siendo las de la pared aquellas que no se  mueven (sedidmentos de fondo). Las particulas que estan cerca de la pared, las cuales son llamadas las del transporte de fondo, son arenas o gravas y se mueven rodando, arrastrandose sin rodar o saltando (mayoria). Esta utima es la que se estudia en el proyecto.
 
 El analisis se hace considerando el movimiento del flujo de manera euleriana en un espacio, y luego considerando el movimiento de la 
-particula de forma langrangiana. Se va a discretizar la particula, para luego en cada celda resolver navier stoke, y asi obtener el corte
-y la presion. Si la presion y los cortes sen las celdas de la parte de arriba son mas grandes que los de abajo, entonces la particula
-tiene una fuerza neta que va hacia arriba y se mueve. La particula pasa por un espacio con caracteristicas definidas (velocidades), y 
-tiene cuatro formas tipicas de acoplarse. 
+particula de forma langrangiana. Se va a discretizar la particula, para luego en cada celda resolver navier stoke, y asi obtener el corte y la presion. Si la presion y los cortes sen las celdas de la parte de arriba son mas grandes que los de abajo, entonces la particula tiene una fuerza neta que va hacia arriba y se mueve. La particula pasa por un espacio con caracteristicas definidas (velocidades), y tiene cuatro formas tipicas de acoplarse. 
 
 Como se va a considerar un perfil logaritmico para la velocidad del flujo, este cambia en la vertical y no en la horizontal (considerando 2 dimensiones), y asi, depende de a que altura "z" se encuentra. Luego se debe proceder a calcular las fuerzas aerodinámicas, para poder establecer una relacion entre las fuerzas aerodinamicas y el peso sumergido. Para ello se considera el cambio de momentum igual a la sumatoria de fuerzas (masa de la particula x la derivada de la velocidad es igual a  una aceleracion igual a la sumatoria de fuerzas). Es importante considerar y asegurar que la discretizacion en el tiempo que se hace es independiente de la
 solucion. 
@@ -33,6 +26,12 @@ del salto, ademas de un promedio de la velocidad, la mediana y la deviacion esta
 - Constante Drag (Cd): 0.47
 - Constante de lifting (Cl): 0.2
 - Constante de peso (Cm): 0.5
+
+**Validacion y Realismo:**
+La validacion se hizo comparando los resultados obtenidos con los entregados por el profesor. Para ello, cada integrante ejecuto el programa en su computador, registrando el tiempo obtenido para las simulaciones de 2, 5, 10 y 20 particulas y observando el comportamiento de las particulas en cuanto a sus posiciones y los diferentes parametros en evaluacion (esta informacion se encuentra en los readme correspondientes para cada alumno). 
+El realismo, si bien alcanza un alto nivel, falta considerar la heterogeneidad de las particulas, pues no todas poseen el mismo diametro ya que no son todas de igual tamaño.
+
+
 
 
 
