@@ -18,24 +18,15 @@ Almacenamiento: Disco rígido: 1TB 5400 rpm SATA HDD ; Disco de estado sólido: 
 La simulacion se hizo bajo un paso de tiempo equivalente a 0.0001(s) y un tiempo maximo de 2(s).
 
 Evaluando cada caso, el tiempo que tardo en completar la simulacion es el siguiente para las particulas:
+
 • 2 particulas: 75,3 (seg)
-
-https://github.com/mariurzua/MCOC-Proyecto-2/issues/2#issue-506114893
-
-
-
-
-
-
 
 
 • 5 particulas: 899,74 (seg)
-https://github.com/mariurzua/MCOC-Proyecto-2/issues/1#issue-506110655
-
-• 10 particulas:
 
 
-• 20 particulas:
+• 10 particulas: 2403.5 (seg)
+
 
 
 
