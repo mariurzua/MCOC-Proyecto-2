@@ -10,7 +10,7 @@ _cm = 1e-2*_m
 _gr = 1e-3*_kg
 
 
-Nparticulas = 5
+Nparticulas = 2
 
 g = 9.81*_m/_s**2
 d = 0.15*_mm
@@ -134,12 +134,41 @@ z0[3::4] = vy0
 z=odeint(particula,z0,t)
 print "Finalizado"
 
+
+
 figure()
-
 for i in range(Nparticulas):
-	xi = z[:,4*i]/d
-	yi = z[:,4*i+1]/d
-	plot(xi,yi)
+	plot(z[:,i*4]/d,z[:,i*4+1]/d,'--')
+xlabel('Distancia Recorrida: H/d')
+ylabel('Altura Recorrida: Z/d')
+show()
 
+figure()
+subplot(1,2,1)
+for i in range(Nparticulas):
+	plot(t,z[:,i*4])
+xlabel('Tiempo [s]')
+ylabel('Distancia Recorrida [m]')
+subplot(1,2,2)
+for i in range(Nparticulas):
+	plot(t,z[:,i*4+1])
+xlabel('Tiempo [s]')
+ylabel('Altura Recorrida [m]')
+show()
+
+figure()
+subplot(1,2,1)
+for i in range(Nparticulas):
+	plot(t,z[:,i*4+2])
+xlabel('Tiempo [s]')
+ylabel('Velocidad en X [m/s] ')
+
+subplot(1,2,2)
+for i in range(Nparticulas):
+	plot(t,z[:,i*4+3])
+xlabel('Tiempo [s]')
+ylabel('Velocidad en Z [m/s] ')
 
 show()
+
+
