@@ -1,6 +1,6 @@
-# MCOC-Proyecto-2
+**MCOC-Proyecto-2**
 
-El objetivo principal del proyecto consiste en implementar y validar un programa de simulación de transporte de sedimentos de fondo. 
+_**Objetivo principal:**_ del proyecto consiste en implementar y validar un programa de simulación de transporte de sedimentos de fondo. 
 Este se logra considerando un modelo lagrangiano, mediante el cual se sigue cada particula de manera individual, para luego ir 
 extendiendolo para que funcione en cantidades de sedimentos mas grandes y cercanas a la realidad. Junto a esto, se busca comprender 
 en que consiste el termino "complejidad computacional", en el cual se analiza como influyen las desiciones de algoritmo de implementacion,
@@ -8,13 +8,6 @@ ademas de estudiar los metodos INPUT-OUTPUT (IO) en el rendimiento del programa.
 
 Para lograr el objetivo es importante tener la informacion y los conocimientos necesarios acerca del transporte de sedimentos y com-
 prender porque es necesario su estudio. Si se junta mucha cantidad de sedimentos, estos disminuyen el volumen de diseño de un embalse o una represa, perjudicando la obra. 
-
-Un grafico explicativo permite comprender mas acerca de esto, ya que muestra el esfuerzo de corte critico. Este grafico posee en su eje X
-el numero de Reynolds de la particula, ordenada de la mas pequeña a la mas grande, por lo que entrega informacion acerca del tamaño 
-de la particula (arcilla, grava, arena etc). El eje Y posee el esfuerzo de corte, el cual se puede calcular a partir del flujo. 
-Sobre la linea la particula se mueve y bajo la linea grafica la particula no se mueve. 
-Las particulas mas pequeñas como arcillas se mueven practicamente a la velocidad del agua, mientras que las mas grandes como arenas y 
-gravas se mueven mas lento ya que poseen su propia inercia. 
 
 Las particulas se pueden representar en un perfil de velocidades de manera logaritmica, siendo las de la pared aquellas que no se  mueven
 (sedidmentos de fondo). Las particulas que estan cerca de la pared, las cuales son llamadas las del transporte de fondo, son arenas o 
@@ -30,4 +23,9 @@ Como se va a considerar un perfil logaritmico para la velocidad del flujo, este 
 solucion. 
 
 Las fuerzas importantes a considerar son el peso sumergido (empuje menos peso de la particula), fuerza de arrastre, fuerza de sustentacion, y fuerza de magnus. Se consideran los saltos de la particula para luego sacar un promedio en la altura h y el largo L
-del salto, ademas de un promedio de la velocidad, la mediana y la deviacion estandar. Finalmente se podra comparar estos resultados con los existentes de una simulacion .
+del salto, ademas de un promedio de la velocidad, la mediana y la deviacion estandar. Finalmente se podra comparar estos resultados con los existentes de una simulacion.
+
+**Supuestos para la simulaciòn:**
+Diàmetro partìcula = 0.15 (mm)
+Densidad partìcula (obtenida por Nino and Garcia 1994): 2650 (kg/m3)
+
