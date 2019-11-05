@@ -32,7 +32,24 @@ Ahora, para el nuevo código ejecutado (disponible en Carpeta "Entrega Meta 6". 
 
 • 20 particulas: 
 
+
 ***Comentario:*** Es posible observar que, para los 3 casos el tiempo disminuyó. Individualmente, para 2 partículas, el tiempo disminuyo en un 4,8% aprox con respecto a su tiempo anterior. Para 5 partículas, el tiempo disminuyó 81,6% con respecto al anterior. Finalmente, para el caso de 10 partículas, el tiempo disminuyó en 86,11%. Así, es posible concluir que a medida que aumenta el numero de particulas ingresado en el codigo, mayor es el tiempo ahorrado, pues los cambios generaron una forma mas eficaz de el seguimiento de la particula, en la cual se tarda menos tiempo.
+
+***Simulación y Comparación con mis compañeros***
+
+*Computador Martín Troncoso*
+• 2 particulas: 30,1 (seg)
+• 5 particulas: 75,9 (seg)
+• 10 particulas: 144,8 (seg)
+• 20 particulas: 323,7 (seg)
+
+*Computador Joaquín Palominos*
+• 2 particulas:  (seg)
+• 5 particulas: (seg)
+• 10 particulas:  (seg)
+• 20 particulas: 
+
+***Comentario:*** Es posible notar que, cambia considerablemente el tiempo si se cambia el computador en el cual se ejecuta. Esto depende de muchos factores, tales como las tareas que realiza el computador, la actualización de este, sus características individuales, procesador, si se encuentra enchufado o no, si se encuentran otras tareas simultáneamente, entre otras cosas. Si bien este computador tiene un muy buen procesador, su desempeño fue lento con respecto a otros. Por ejemplo, al compararlo con Martin Troncoso, es posible notar que se tardó casi un tercio, osea un 33,3% del tiempo que se tarda mi computador en simular la trayectoria de 10 partículas. 
 
 
 
