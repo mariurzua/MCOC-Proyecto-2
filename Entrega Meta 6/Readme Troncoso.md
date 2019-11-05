@@ -11,7 +11,7 @@ RESULTADOS
 
 N° particulas             Tiempo[s]
       2                      30,1
-      5                     
+      5                      75,9
       10                    
       20                    323,7
 
