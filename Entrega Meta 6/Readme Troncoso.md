@@ -12,6 +12,7 @@ S.O.: Windows 10 64 bits
 
 *RESULTADOS
 
+       **Saltation many particles faster
       N° particulas             Tiempo[s]
             2                      30,1
             5                      75,9
