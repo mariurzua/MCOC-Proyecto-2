@@ -38,15 +38,23 @@ Ahora, para el nuevo código ejecutado (disponible en Carpeta "Entrega Meta 6". 
 ***Simulación y Comparación con mis compañeros***
 
 *Computador Martín Troncoso*
+
 • 2 particulas: 30,1 (seg)
+
 • 5 particulas: 75,9 (seg)
+
 • 10 particulas: 144,8 (seg)
+
 • 20 particulas: 323,7 (seg)
 
 *Computador Joaquín Palominos*
+
 • 2 particulas:  (seg)
+
 • 5 particulas: (seg)
+
 • 10 particulas:  (seg)
+
 • 20 particulas: 
 
 ***Comentario:*** Es posible notar que, cambia considerablemente el tiempo si se cambia el computador en el cual se ejecuta. Esto depende de muchos factores, tales como las tareas que realiza el computador, la actualización de este, sus características individuales, procesador, si se encuentra enchufado o no, si se encuentran otras tareas simultáneamente, entre otras cosas. Si bien este computador tiene un muy buen procesador, su desempeño fue lento con respecto a otros. Por ejemplo, al compararlo con Martin Troncoso, es posible notar que se tardó casi un tercio, osea un 33,3% del tiempo que se tarda mi computador en simular la trayectoria de 10 partículas. 
