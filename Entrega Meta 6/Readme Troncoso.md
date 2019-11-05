@@ -10,7 +10,7 @@ S.O.: Windows 10 64 bits
 RESULTADOS
 
 N° particulas             Tiempo[s]
-      2                      
+      2                      30,1
       5                     
       10                    
       20                    323,7
