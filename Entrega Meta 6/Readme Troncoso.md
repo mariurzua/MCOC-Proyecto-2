@@ -12,13 +12,13 @@ S.O.: Windows 10 64 bits
 
 *RESULTADOS
 
-N° particulas             Tiempo[s]
+      N° particulas             Tiempo[s]
 
-      2                      30,1
+            2                      30,1
 
-      5                      75,9
+            5                      75,9
 
-      10                    144,8
+            10                    144,8
 
-      20                    323,7
+            20                    323,7
 
