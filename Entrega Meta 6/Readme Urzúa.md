@@ -49,15 +49,13 @@ Ahora, para el nuevo código ejecutado (disponible en Carpeta "Entrega Meta 6". 
 
 *Computador Joaquín Palominos*
 
-• 2 particulas:  (seg)
+• 5 particulas: 130,96 (seg)
 
-• 5 particulas: (seg)
+• 10 particulas: 244,97 (seg)
 
-• 10 particulas:  (seg)
+• 20 particulas: 462,79
 
-• 20 particulas: 
-
-***Comentario:*** Es posible notar que, cambia considerablemente el tiempo si se cambia el computador en el cual se ejecuta. Esto depende de muchos factores, tales como las tareas que realiza el computador, la actualización de este, sus características individuales, procesador, si se encuentra enchufado o no, si se encuentran otras tareas simultáneamente, entre otras cosas. Si bien este computador tiene un muy buen procesador, su desempeño fue lento con respecto a otros. Por ejemplo, al compararlo con Martin Troncoso, es posible notar que se tardó casi un tercio, osea un 33,3% del tiempo que se tarda mi computador en simular la trayectoria de 10 partículas. 
+***Comentario:*** Es posible notar que, cambia considerablemente el tiempo si se cambia el computador en el cual se ejecuta. Esto depende de muchos factores, tales como las tareas que realiza el computador, la actualización de este, sus características individuales, procesador, si se encuentra enchufado o no, si se encuentran otras tareas simultáneamente, entre otras cosas. Si bien este computador tiene un muy buen procesador, su desempeño fue lento con respecto a otros. Por ejemplo, al compararlo con Martin Troncoso, es posible notar que se tardó casi un tercio, osea un 33,3% del tiempo que se tarda mi computador en simular la trayectoria de 10 partículas. Al comparar con el computador de Joaquín, es posible notar que tarda más que el computador de Martín pero menos que el mío.
 
 
 
