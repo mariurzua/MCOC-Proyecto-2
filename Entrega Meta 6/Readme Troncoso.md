@@ -16,10 +16,10 @@ Discos: SSD 250 GB - HDD 1 TB
 
         Saltation many particles faster                     Computador Maria Luisa                       Computador Joaquin
       N° particulas             Tiempo[s]             N° particulas           Tiempo[s]           N° particulas        Tiempo[s]
-            2                      30,1                     2                   71,7                     2
-            5                      75,9                     5                  165,6                     5
-            10                    144,8                     10                 334,1                     10
-            20                    323,7                     20                2220,4                     20
+            2                      30,1                     2                   71,7                     2                56,4
+            5                      75,9                     5                  165,6                     5               130,9
+            10                    144,8                     10                 334,1                     10              244,9
+            20                    323,7                     20                2220,4                     20              462,79
 
          Saltation many particles (entrega anterior)
        N° particulas             Tiempo[s]
